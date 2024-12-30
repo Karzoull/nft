@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+nav{
+   display: flex;
+   padding: 0 80px;
+   align-items: center;
+   justify-content: space-between;
+   height: 100px;
+}
+
+.Logo {
+    font-size: 33px;
+    font-weight: 600;
+    color: #0f2182;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 35px;
+}
+
+nav .links a{
+    font-size: 19px;
+    color: black;
+}
+
+nav .login a:not(:last-child) {
+    margin-right: 25px;
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+
+nav .login a {
+    font-size: 18px;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 80px);
+    padding: 0 120px;
+}
+
+header .left {
+    width: 700px;
+}
+
+header .left h1 {
+    font-size: 5em;
+}
+
+header .left h2{
+    color: #0f2182;
+    font-size: 5em;
+}
+
+header .left p {
+    color: #868686;
+    margin: 40px 0;
+    line-height: 25px;
+}
+
+header .left a {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 8px;
+  border-radius: 60px;
+}
+
+header .left a i {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 8px;
+    color: black;
+}
+
+header .left a span {
+    color: white;
+    padding-left: 15px;
+}
+
+header .right img {
+    width: 700px;
+}
+
+.separator {
+   font-size: 40px;
+   padding: 0 80px;
+}
+
+.card-info {
+    padding: 0 80px;
+    margin: 50px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-info .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.card-info .card:hover {
+    transform: scale(105%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-info .card .main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-info .card .main i {
+    font-size: 40px;
+}
+
+.card-info .card .main h5 {
+    font-size: 17px;
+}
+
+.card-info .card p {
+    margin-top: 13px;
+}
+
+.separator2{
+    font-size: 40px;
+    padding: 50px 80px;
+ }
+
+.buttons {
+    display: flex;
+    padding: 0 80px;
+    gap: 15px;
+}
+
+.buttons a {
+    font-size: 15px;
+    color: black;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.buttons a:hover {
+    color: white;
+    background-color: #0f2182;
+}
+
+.card-nft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.card-nft .card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.card-nft .card:hover {
+    transform: scale(101%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-nft .main img {
+    width: 290px;
+    height: 290px;
+    border-radius: 18px;
+}
+
+.card-nft .info h5{
+ font-size: 20px;
+ margin-top: 15px;
+}
+
+.card-nft .info .btc {
+    display: flex;
+    margin: 15px 0;
+    gap: 5px;
+}
+
+.card-nft .info .btc p,
+.card-nft .info .btc i {
+    color: #3253FC;
+}
+
+.card-nft .info .btc i {
+    font-size: 20px;
+}
+.card-nft .info .btc p {
+    font-size: 15px;
+}
+
+.card-nft .info .btc span p{
+    font-size: 15px;
+    color: #868686;
+    padding-left: 130px;
+}
+.trait hr {
+    border-color: rgb(255, 255, 255);
+    width: 95%;
+    position: relative;
+    margin-left: 5px;
+}
+
+
+.card-nft .card .hours {
+    display: flex;
+    gap: 110px;
+    margin-top: 20px;
+}
+
+.card-nft .card .hours a {
+    color: #05498a;
+    font-weight: 500;
+    font-size: 15px;
+    transition:  0.3s ease;
+    margin-top: 5px;
+}
+
+.card-nft .card .hours a:hover{
+   color: black;
+}
+
+.card-nft .card .hours P {
+    background-color: #dbdbdb;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 12px;
+}
+
+ .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.view a {
+    background-color: #DBDBDB;
+    color: black;
+    padding: 12px 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.view a:hover {
+    color: white;
+    background-color: #0f2182;
+}
+
+.separator3{
+    font-size: 40px;
+    padding: 50px 80px;
+}
+
+.sellers {
+    display: flex;
+    padding: 0 80px;
+    margin: 40px 0 80px;
+    gap: 30px;
+}
+
+.sellers .card-sellers {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    background-color: white;
+    width: 25%;
+    gap: 14px;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sellers .card-sellers:hover{
+    transition: scale(101%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sellers .card-sellers img{
+    width: 64px;
+}
+
+.sellers .card-sellers p {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .left h1{
+    font-size: 45px;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .link{
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .link a{
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .link a:hover{
+    color: #fff;
+}
+
+
+footer .right .icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .icons i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .icons i:hover{
+    color: #304ffe;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+}
+
+@media screen and (max-width:1650px){
+    .card-nft {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    nav,
+    header,
+    .separator,
+    .card-info{
+        padding: 0 40px;
+    }
+
+    header .left h1,
+    header .left h2{
+        font-size: 60px;
+    }
+
+    header .right img{
+        width: 560px;
+    }
+
+    .card-nft .card {
+        background-color: white;
+        padding: 15px;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .card-info p {
+        font-size: 13px;
+    }
+    
+    .card-info .card .main i{
+        font-size: 30px;
+    }
+    .card-info .card .main h5{
+        font-size: 15px;
+    }
+
+    .separator,
+    .separator2,
+    .separator3{
+        font-size: 35px;
+        padding: 0 40px;
+    }
+
+    .buttons {
+        padding: 0 40px;
+        margin-top: 40px;
+    }
+
+    .separator3{
+        margin-top: 70px;
+    }
+    .sellers {
+        flex-wrap: wrap;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .sellers .card-sellers {
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        background-color: white;
+        width: 40%;
+        gap: 14px;
+        border-radius: 18px;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    
+    nav .login a,
+    nav .links a{
+        font-size: 15px;
+    }
+     .card-info {
+        display: flex;
+        text-align: center;
+        margin-top: 80px;
+     }
+
+     .separator{
+        margin-top: -400px;
+     }
+     .card-info .card {
+        padding: 20px 60px;
+     }
+
+     header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: calc(100vh - 80px);
+        padding: 0 120px;
+    }
+    
+    header .left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    header .left .btn {
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    header .left a {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        width: 200px;
+        padding: 5px;
+        border-radius: 60px;
+      }
+
+    header .right img{
+      display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    footer .right{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 26px;
+    }
+
+    .separator2 {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width:940px){
+    .card-nft {
+        align-items: center;
+    }
+
+    .card-nft {
+        display: flex;
+        justify-content: center;
+    }
+
+    .view {
+        margin-top: -5px;
+    }
+
+    .separator3 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:860px){
+    .sellers .card-sellers {
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        background-color: white;
+        width: 45%;
+        gap: 14px;
+        border-radius: 18px;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    nav .Logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width:820px){
+    .card-info  {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .separator {
+       
+        margin-top: -420px;
+    }
+ 
+}
+
+@media screen and (max-width:800px){
+
+    nav .links{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:620px){
+    .buttons {
+        flex-wrap: wrap;
+    }
+}
+
