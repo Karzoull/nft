@@ -588,3 +588,8 @@ footer .right p{
     }
 }
 
+@media screen and (max-width:430px){
+    .separator{
+        margin-top: 200px;
+    }
+}
