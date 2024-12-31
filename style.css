@@ -589,7 +589,21 @@ footer .right p{
 }
 
 @media screen and (max-width:430px){
+
+    header .left {
+        margin-left: -70px;
+    }
     .separator{
-        margin-top: 200px;
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width:395px){
+
+    header .left {
+        margin-left: -90px;
+    }
+    .separator{
+        margin-top: -200px;
     }
 }
